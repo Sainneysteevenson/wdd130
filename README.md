@@ -1,1 +1,33 @@
 # wdd130
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAINNEY Steevenson| WDD 130</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Me</a>
+      <a href="#">sainneysteevenson@gmail.com</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>SAINNEY Steevenson and WDD 130</h1>
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQHeYFu2RiA5jA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707534895901?e=1769644800&v=beta&t=r3qgZ-diWiXwZTpzYuMTVPAv_Ro0xiawBYrEetgze1A" alt="Portrait of Your Name" width="300">
+    <p>
+      Hello! I'm from Haiti. I'm excited to be part of WDD 130 and learn about web design and development. 
+      I'm passionate about technology, design, and creating digital experiences that help people. In my free time, I enjoy reading, coding, and discovering new tools.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SAINNEY,  Port au prince HAITI </p>
+  </footer>
+
+</body>
+</html>
