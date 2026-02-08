@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Contact Us page for Rafting SNNY s.a, This is the best place for Us ">
+    <meta name="author" content="SAINNEY Steevenson">
+    <title>Contact Us - Rafting SNNY s.a</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+<header>
+    <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/z-wwr-blue.jpg" alt="Rafting SNNY s.a logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+
+
+    
+
+    <section>
+        <h1>Contact Us</h1>
+        <h2>Send Us a Message</h2> 
+        <p> White water Rafting</p>
+        <p> Phone: 3669 32 99 31 </p>
+        <p> Email: <a href="mailto:sainneysteevenson@gmail.com">sainneysteevenson@gmail.com</a></p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2950.9327878975164!2d-72.28713137678129!3d18.56033052863335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sht!4v1770434779506!5m2!1sen!2sht" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section>
+        <section class="employees - box " >
+            <h3>Meet Our Team</h3>
+            <div class="employee-box">
+                <figure>
+                    <img src="https://en.wikipedia.org/wiki/Jan_Erik_Vold" alt="Jan Erik Vold, CEO">
+                    <figcaption>Jan Erik Vold - CEO</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://en.wikipedia.org/wiki/Thomas_Djiwandono" alt="Thomas Djiwandono, Operations Manager">
+                    <figcaption>Thomas Djiwandono - Operations Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://en.wikipedia.org/wiki/Amanda_Manopo" alt="Marc-Antoine Jules, Lead Guide">
+                    <figcaption>Marc-Antoine Jules - Lead Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form -box">
+            <h3>Send Us a Message</h3>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Your Message:</p>
+                <div class="radio-group -box">
+                    <label>
+                        <input type="radio" name="purpose" value="General Inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="Reservation Question">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="Website Suggestion">
+                        Website Suggestion
+                    </label>
+                </div>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+
+<footer>
+    <p>© 2026 Rafting SNNY s.a | SAINNEY Steevenson</p>
+
+    <nav class="socialmedia - box">
+        <a href="https://facebook.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/120px-Facebook_Logo_2023.png"
+                 alt="Facebook Icon" width="32" height="32">
+        </a>
+        <a href="https://linkedin.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/120px-LinkedIn_icon.svg.png"
+                 alt="LinkedIn Icon" width="32" height="32">
+        </a>
+        <a href="https://instagram.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/120px-Instagram_icon.png"
+                 alt="Instagram Icon" width="32" height="32">
+        </a>
+    </nav>
+</footer>
+</body>
+</html>
